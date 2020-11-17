@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="設定"
+    android:key="preference_root">
+
+    <PreferenceScreen
+        android:title="外観設定"
+        android:key="preference_appearance">
+
+        <ListPreference
+            android:title="テーマ"
+            android:key="preference_theme"
+            android:entries="@array/entries_preference_theme"
+            android:entryValues="@array/entry_values_preference_theme"
+            android:defaultValue="@string/default_value_preference_theme" />
+
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:title="その他の設定"
+        android:key="preference_others">
+
+        <PreferenceScreen />
+
+    </PreferenceScreen>
+
+</PreferenceScreen>

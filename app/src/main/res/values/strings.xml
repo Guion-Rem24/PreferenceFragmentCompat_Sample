@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PreferenceFragmentCompat_Sample</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_value_preference_theme">light</string>
+</resources>
